@@ -1,5 +1,5 @@
-#Mum's Brix to Baume Converter
-brix = 40
+#Mum's Brix to Baume Converter with input
+brix = int(input("Enter reading in brix: "))
 baume = (brix + 1.6)/1.905
 print(f"{brix}\u00b0 brix is {baume:.4}\u00b0 in baumé.")
 
