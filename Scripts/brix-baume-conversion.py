@@ -1,10 +1,10 @@
 #Mum's Brix to Baume Converter with input
 def is_ripe(baume):
 	'''
-    This fucntion will parse the baume conversion 
-    and determine whether grapes are right or not.
-    INPUT: Baume Calculation
-    '''
+	This fucntion will parse the baume conversion 
+	and determine whether grapes are right or not.
+	INPUT: Baume Calculation
+	'''
     if baume >= 10:
         print('Grapes are ready to pick!')
     elif baume < 10:
